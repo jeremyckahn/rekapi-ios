@@ -1,9 +1,8 @@
 require.config({
-  baseUrl: '/'
-  ,paths: {
-    underscore: 'bower_components/underscore/underscore'
-    ,shifty: 'bower_components/shifty/dist/shifty.min'
-    ,rekapi: 'bower_components/rekapi/dist/rekapi.min'
+  paths: {
+    underscore: '../bower_components/underscore/underscore-min'
+    ,shifty: '../bower_components/shifty/dist/shifty.min'
+    ,rekapi: '../bower_components/rekapi/dist/rekapi.min'
   }
 });
 
