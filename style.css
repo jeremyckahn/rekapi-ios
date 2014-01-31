@@ -1,8 +1,9 @@
 .icons {
   margin: 100px auto;
-  overflow: auto;
   padding: 0;
   width: 440px;
+  -webkit-perspective: 1px;
+  -moz-perspective: 1px;
 }
 
 .icons li {
@@ -15,6 +16,8 @@
   list-style-type: none;
   margin: .2em;
   padding: .6em;
+
+  /*-webkit-transform: translateZ(0.3px);*/
 }
 
 .icons li:nth-child(4n + 1) {
