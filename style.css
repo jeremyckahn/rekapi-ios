@@ -1,0 +1,22 @@
+.icons {
+  margin: 100px auto;
+  overflow: auto;
+  padding: 0;
+  width: 440px;
+}
+
+.icons li {
+  background: #000;
+  border-radius: .6em;
+  color: #fff;
+  float: left;
+  font-size: 3em;
+  line-height: 0;
+  list-style-type: none;
+  margin: .2em;
+  padding: .6em;
+}
+
+.icons li:nth-child(4n + 1) {
+  clear: left;
+}
