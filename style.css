@@ -1,9 +1,14 @@
 .icons {
+  height: 440px;
   margin: 100px auto;
   padding: 0;
   width: 440px;
-  -webkit-perspective: 1px;
-  -moz-perspective: 1px;
+
+  -moz-perspective:     1000px;
+  -ms-perspective:      1000px;
+  -o-perspective:       1000px;
+  -webkit-perspective:  1000px;
+  perspective:          1000px;
 }
 
 .icons li {
@@ -16,8 +21,6 @@
   list-style-type: none;
   margin: .2em;
   padding: .6em;
-
-  /*-webkit-transform: translateZ(0.3px);*/
 }
 
 .icons li:nth-child(4n + 1) {
